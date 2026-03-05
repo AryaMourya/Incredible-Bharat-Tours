@@ -1,0 +1,115 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background: #f5f5f5;
+    color: #333;
+    line-height: 1.6;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 60px;
+    background: white;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+    position: sticky;
+    top: 0;
+    z-index:100;
+}
+.logo{
+    font-size: 24px;
+    font-weight: 600;
+    color: #e67e22;
+}
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+.nav-links a{
+    text-decoration: none;
+    color: #333;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+.nav-links a:hover{
+    color: #e67e22;
+}
+.section1{
+    height:90vh;
+background-image:url(https://www.thegrandindianroute.com/wp-content/uploads/2024/02/Untitled-design-2024-07-17T005119.143.jpg);
+background-size:cover;
+background-position:center;
+
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+color:white;
+padding:20px;
+}
+.section1-text h1{
+    font-size: 18px;
+    margin-bottom: 25px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.btn{
+    display: inline-block;
+    padding: 12px 25px;
+    background: #e67e22;
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    border-radius: 6px;
+    transition:  0.3s ;
+}
+.btn:hover{
+    background: #cf711f;
+}
+.destinations {
+    padding: 70px 60px;
+    background: white;
+    text-align: center;
+}
+.destinations h2{
+    margin-bottom: 40px;
+    font-size: 32px;
+}
+
+.destination-container{
+    display: grid;
+    gap:30px;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.card{
+    background: #f9f9f9;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+    transition: transform 0.3s ease;
+}
+.card:hover{
+    transform: translateY(-10px);
+}
+.card img{
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+.card h3{
+    margin: 15px;
+    font-size: 20px;
+}
+.card p{
+    margin: 0 15px 15px;
+    color: #666;
+}
