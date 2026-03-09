@@ -74,7 +74,11 @@ image
    pachmari.JPG
    Hampi.jpg
   Gokarna.png
-  section image.jpg 
+  section image.jpg
+  ziro_valley_-_a_possible_world_heritage_site.jpg
+  pachmarhi1.jpg
+  hampi1.jpeg
+  gokarna1.jpg
 ```
 
 ---
