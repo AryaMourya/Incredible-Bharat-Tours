@@ -1,4 +1,4 @@
-# Incredible Bharat 🇮🇳
+<img width="1919" height="1007" alt="Screenshot 2026-03-09 230139" src="https://github.com/user-attachments/assets/85f61d31-c90c-454f-9713-1c57b8405b6c" /># Incredible Bharat 🇮🇳
 
 **Incredible Bharat** is a tourism discovery website that highlights hidden travel destinations across India.
 The project focuses on showcasing lesser-known places from different regions of the country and encouraging exploration beyond popular tourist spots.
@@ -43,10 +43,9 @@ Future improvements will include:
 ---
 
 ## 📸 Preview
-   ![Uploading Screenshot 2026-03-09 230139.png…]()
 
 
-
+![Uploading Screenshot 2026-03-09 230139.png…]()
 
 
 ---
