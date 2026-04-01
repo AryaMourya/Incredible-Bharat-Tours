@@ -97,9 +97,12 @@ padding:20px;
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0,0,0,0.08);
     transition: transform 0.3s ease;
+    text-decoration: none;
+    color: inherit;
 }
 .card:hover{
-    transform: translateY(-10px);
+    transform: translateY(-10px) scale(1.02);
+    box-shadow: 0 12px 25px rgba(0,0,0,0.15);
 }
 .card img{
     width: 100%;
