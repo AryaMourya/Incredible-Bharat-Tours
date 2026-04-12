@@ -94,6 +94,7 @@ padding:20px;
 .card{
     background: #f9f9f9;
     border-radius: 12px;
+    cursor: pointer;
     overflow: hidden;
     box-shadow: 0 4px 15px rgba(0,0,0,0.08);
     transition: transform 0.3s ease;
