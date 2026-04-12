@@ -20,23 +20,23 @@ The website allows users to:
 
 ## ✨ Features
 
-* Responsive travel website design
-* Interactive destination cards
+* Responsive travel website design (mobile-friendly)
+* Multi-page website structure
 * Dedicated pages for each destination
 * Smooth navigation between pages
-* Clean and structured UI
-
+* Clean and modern UI
+* Mobile navbar toggle menu
+* Live search functionality
 ---
 
 ## 🛠 Tech Stack
 
-* HTML5
-* CSS3
+* HTML5-Structure
+* CSS3-Styling & layout
+* JavaScript(Vanilla JS)- Interactivity
 
 Future improvements will include:
 
-* JavaScript for interactivity
-* Destination search feature
 * Region-based filtering
 * Interactive map of India
 
@@ -69,6 +69,9 @@ pachmarhi.html
 style
    style1.css
    style2.css
+│
+js
+   script.js
 │
 image
    chopta-3.jpg
@@ -104,6 +107,11 @@ This project was built as part of my learning journey in web development to prac
 * Implement search and filters
 * Add travel guides and tips
 * Integrate maps for location visualization
+
+---
+## Contributing
+This is a learning project, and suggestions are always welcome!
+If you find any issue or have ideas for improvement, feel free to open an issue or connect.
 
 ---
 📬 Connect With Me
