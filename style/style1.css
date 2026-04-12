@@ -63,6 +63,9 @@ padding:20px;
     margin-left: auto;
     margin-right: auto;
 }
+.section1-text p{
+    margin-bottom:25px;
+}
 .btn{
     display: inline-block;
     padding: 12px 25px;
