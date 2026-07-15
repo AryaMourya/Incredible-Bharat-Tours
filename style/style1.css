@@ -187,7 +187,7 @@ border-radius:5px;
     margin-top:20px 0;}
 }
 .filter-btn,
-#theme-toggle,
+#themeToggle,
 .fav-btn{
     padding:10px 20px;
     border:none;
@@ -201,14 +201,14 @@ border-radius:5px;
     background:#1c1c1c;
     color:white;
 }
-.dark-mode .card{
+.dark-mode.card{
     background:#2c2c2c;
     color:white;
 }
-.dark-mode .navbar{
+.dark-mode.navbar{
     background:rgba(44, 62, 80, 0.8);
 }
-.dark-mode .btn{
+.dark-mode.btn{
     background:#e67e22;
 }
 .dark-mode .btn:hover{
