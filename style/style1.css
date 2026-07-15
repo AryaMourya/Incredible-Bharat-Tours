@@ -11,6 +11,7 @@ body{
     background: #f5f5f5;
     color: #333;
     line-height: 1.6;
+    transition: background 0.3s ease, color 0.3s ease;
 }
 .navbar{
     display: flex;
@@ -187,7 +188,7 @@ border-radius:5px;
     margin-top:20px 0;}
 }
 .filter-btn,
-#themeToggle,
+#theme-toggle,
 .fav-btn{
     padding:10px 20px;
     border:none;
@@ -197,32 +198,57 @@ border-radius:5px;
 }
 
 /* Dark Mode Styles */
-.dark-mode{
-    background:#1c1c1c;
+
+body.dark-mode{   
+    background:black;
+    color: #555;
+}
+
+.dark-mode #search{
+    background:#1f1f1f;
     color:white;
+    border:1px solid #555;
 }
-.dark-mode.card{
-    background:#2c2c2c;
-    color:white;
+
+.dark-mode #search::placeholder{
+    color:#cccccc;
 }
-.dark-mode.navbar{
-    background:rgba(44, 62, 80, 0.8);
-}
-.dark-mode.btn{
-    background:#e67e22;
-}
-.dark-mode .btn:hover{
-    background:#cf711f;
-}
+
 .dark-mode footer{
-    background:#1c1c1c;
+    background:#000;
+    color:white;
+}
+
+.dark-mode .card{
+    background:#1f1f1f;
+}
+
+
+.dark-mode .card h3{
+    color:white;
+}
+
+.dark-mode .card p{
+    color:#d9d9d9;
+}
+.dark-mode .navbar{
+    background:rgba(0,0,0,0.8);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 8px rgba(255,255,255,0.01);
 }
 .dark-mode .nav-links a{
     color:white;
 }
-.dark-mode #search{
-    background:#333;
-    color:white;
-    border:1px solid #555;
+.dark-mode .nav-links a:hover{
+    color: #e67e22;
 }
+.dark-mode .section1{
+    background-image:url(https://www.thegrandindianroute.com/wp-content/uploads/2024/02/Untitled-design-2024-07-17T005119.143.jpg);
+    background-size:cover;
+    background-position:center;
+}
+.dark-mode .destinations{
+    background:#1f1f1f;
+}
+
 
