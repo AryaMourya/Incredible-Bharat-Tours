@@ -205,5 +205,24 @@ border-radius:5px;
     background:#2c2c2c;
     color:white;
 }
-
+.dark-mode .navbar{
+    background:rgba(44, 62, 80, 0.8);
+}
+.dark-mode .btn{
+    background:#e67e22;
+}
+.dark-mode .btn:hover{
+    background:#cf711f;
+}
+.dark-mode footer{
+    background:#1c1c1c;
+}
+.dark-mode .nav-links a{
+    color:white;
+}
+.dark-mode #search{
+    background:#333;
+    color:white;
+    border:1px solid #555;
+}
 
