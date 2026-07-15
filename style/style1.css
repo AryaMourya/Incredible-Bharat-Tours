@@ -101,7 +101,7 @@ padding:20px;
     cursor: pointer;
     overflow: hidden;
     box-shadow: 0 4px 10px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
     text-decoration: none;
     color: inherit;
 }
@@ -186,3 +186,23 @@ border-radius:5px;
     gap:10px;
     margin-top:20px 0;}
 }
+.filter-btn,
+#theme-toggle,
+.fav-btn{
+    padding:10px 20px;
+    border:none;
+    border-radius:5px;
+    cursor:pointer;
+    
+}
+
+/* Dark Mode Styles */
+.dark-mode{
+    background:#1c1c1c;
+    color:white;
+}
+.dark-mode .card{
+    background:#2c2c2c;
+    color:white;
+}
+
