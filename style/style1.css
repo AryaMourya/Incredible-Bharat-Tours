@@ -250,5 +250,7 @@ body.dark-mode{
 .dark-mode .destinations{
     background:#1f1f1f;
 }
-
+.fav-btn{
+    background: #ffdddd;;
+}
 

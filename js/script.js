@@ -21,3 +21,26 @@ themeToggle.addEventListener("click", () => {
     }
 
 });
+const searchInput =
+document.getElementById("search");
+
+searchInput.addEventListener("keyup", () => {
+
+const value =
+searchInput.value.toLowerCase();
+
+document
+.querySelectorAll(".card")
+.forEach(card => {
+
+const text =
+card.innerText.toLowerCase();
+
+card.style.display =
+text.includes(value)
+? "block"
+: "none";
+
+});
+
+});
