@@ -80,3 +80,48 @@ filterButtons.forEach(button => {
     });
 
 });
+
+// favorite button 
+
+const favButtons =
+document.querySelectorAll(".fav-btn");
+
+favButtons.forEach((button,index) => {
+
+if(
+localStorage.getItem(
+"favorite" + index
+) === "true"
+){
+button.innerText = "❤️ Favorited";
+button.classList.add("favorite");
+}
+
+button.addEventListener("click", () => {
+
+button.classList.toggle("favorite");
+
+if(
+button.classList.contains("favorite")
+){
+button.innerText = "❤️ Favorited";
+
+localStorage.setItem(
+"favorite" + index,
+"true"
+);
+
+}else{
+
+button.innerText = "🤍 Favorite";
+
+localStorage.setItem(
+"favorite" + index,
+"false"
+);
+
+}
+
+});
+
+});
