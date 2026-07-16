@@ -17,7 +17,8 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 20px 60px;
+    padding-block-start: 20px;
+    padding-block-end: 0px;
     background:rgba(255,255,255,0.8);
     backdrop-filter: blur(10px);
     box-shadow: 0 2px 8px rgba(0,0,0,0.01);
@@ -188,13 +189,30 @@ border-radius:5px;
     margin-top:20px 0;}
 }
 .filter-btn,
-#theme-toggle,
 .fav-btn{
     padding:10px 20px;
     border:none;
     border-radius:5px;
     cursor:pointer;
     
+}
+#theme-toggle{
+    width:45px;
+    height:45px;
+    border:none;
+    border-radius:50%;
+    background:#f1f1f1;
+    cursor:pointer;
+    font-size:20px;
+    transition:0.3s;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+#theme-toggle:hover{
+    transform:scale(1.1);
+    background:#e67e22;
+    color:white;
 }
 
 /* Dark Mode Styles */
@@ -253,4 +271,7 @@ body.dark-mode{
 .fav-btn{
     background: #ffdddd;;
 }
-
+body.dark-mode #theme-toggle{
+    background:#333;
+    color:white;
+}

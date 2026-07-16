@@ -1,26 +1,36 @@
-
-// Load saved theme
 const themeToggle = document.getElementById("theme-toggle");
 
-// Load saved theme
-if (localStorage.getItem("theme") === "dark") {
+// Apply saved theme when page loads
+if(localStorage.getItem("theme") === "dark"){
     document.body.classList.add("dark-mode");
-    themeToggle.innerHTML = "☀️ Light Mode";
+
+    if(themeToggle){
+        themeToggle.innerHTML = "☀️";
+    }
 }
 
-themeToggle.addEventListener("click", () => {
+// Toggle theme
+if(themeToggle){
 
-    document.body.classList.toggle("dark-mode");
+    themeToggle.addEventListener("click", () => {
 
-    if (document.body.classList.contains("dark-mode")) {
-        localStorage.setItem("theme", "dark");
-        themeToggle.innerHTML = "☀️ Light Mode";
-    } else {
-        localStorage.setItem("theme", "light");
-        themeToggle.innerHTML = "🌙 Dark Mode";
-    }
+        document.body.classList.toggle("dark-mode");
 
-});
+        if(document.body.classList.contains("dark-mode")){
+
+            localStorage.setItem("theme","dark");
+            themeToggle.innerHTML = "☀️";
+
+        }else{
+
+            localStorage.setItem("theme","light");
+            themeToggle.innerHTML = "🌙";
+
+        }
+
+    });
+
+}
 const searchInput =
 document.getElementById("search");
 
